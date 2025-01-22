@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Utkarsh's Portfolio</div>
+            <div class="right"> 
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href= "https://forms.gle/kMYLweqjU7LnG5Ea9" target="_blank">Contact Me</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi My Name is <span class="purple">
+                    Utkarsh
+                </span>
+                <div> A motivated B.Tech student </div>
+                <div >And Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    
+                <a href="Utkarsh Resume.pdf" download="Resume"><button class="btns" >Download Resume</button></a>
+                </div>
+                
+
+            </div>
+            <div class="rightsection"><img src="img.png" alt=""></div>
+        </section>
+        <hr>
+        <section class="#Projects" id="Projects">
+        <section class="secondsection">
+            <h1>Projects</h1>
+           <img class="spotify" src="spotify.png" alt="">
+           <div class="title1">
+            <b>Music Player</b><br>
+            Technology Used HTML, CSS, and JavaScript. 
+            <a href="https://github.com/Sharma0Utkarsh/Music-Player.git" target="_blank">Check-out</a>
+            </div>
+            <img  class="currency" src="currency.jpg" alt="">
+            <div class="title2">
+               <b> Currency Converter</b>
+               <br>
+               Technology Used JavaScript, API, HTML, and CSS.
+               <a href="https://github.com/Sharma0Utkarsh/Currency-Exchange.git" target="_blank">Check-out</a>
+               
+            </div>
+            <img class="qr" src="QR.jpeg" alt="" height="180px" width="180px">
+            <div class="title3">
+                <b>Qr Code Generator</b>  
+                <br>
+                Technology Used HTML,CSS,JavaScript.
+                <a href="https://github.com/Sharma0Utkarsh/Qr-Code-Generator.git" target="_blank">Check-out</a>
+            </div>
+            <p>more updating soon.....</p>
+
+        </section>
+    </section>
+        
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Utkarsh's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href= "https://github.com/Sharma0Utkarsh" target="_blank">
+                    <i class="fa-brands fa-github"></i></a></li>
+                    <li> <a href= "https://www.linkedin.com/in/utkarsh-sharma17" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i></a></li>
+                    <li> <a href= "https://forms.gle/kMYLweqjU7LnG5Ea9" target="_blank">
+                    <i class="fa-solid fa-user"></i></a></li>
+                </ul>
+        </div>  
+        </div>
+        <div class="text-center">
+       Copyright &#169; Utkarsh'sPortfolio | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Wordpress Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+      <script src="function.js"></script>
+</body>
+</html>
